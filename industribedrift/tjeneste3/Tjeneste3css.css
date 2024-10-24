@@ -7,35 +7,24 @@
 	margin: 0;
 	}
 
-.bannertittel {
-	cursor: default;
-	flex-direction: row;
-	justify-content: space-around;
-	flex-wrap: wrap;
-	margin-left: 600px;
-	margin-top: 80px;
-	}
-
-
 
 .knapp {
-  background-color: #FCA311;
-  color: #14213D;
+  background-color: #f9e70c;
   padding: 15px 25px;
-  margin-bottom: 50px;
   border: none;
   border-radius: 4px;
   cursor: pointer;
   font-size: 20px;
+  margin-bottom: 50px;
+  text-decoration: none;
 	}
 
 
 
 .Tjeneste3tekst {
-	color: #FCA311;
-	background-color: #14213D;
-	font-size: 30px;
-	text-align: center;
+	font-size: 25px;
+	margin: auto;
+  width: 50%;
 	font-family: Arial, Helvetica, sans-serif;
 	}
 
@@ -45,15 +34,13 @@
 	list-style-type: none;
 	margin: 0;
 	overflow: hidden;
-	background-color: #E5E5E5;
-	border: 1px solid black;
-	padding: 25px;
+	background-color: #f9e70c;
+	padding: 10px;
 	font-size: 25px;
 	font-family: Arial, Helvetica, sans-serif;
 	}
 	li {
 	display: inline;
-	border-right: 1px solid #FCA311;
 	}
 	li a {
 	display: inline-flex;
@@ -65,5 +52,6 @@
 	text-decoration: none;
 	}
 	li a:hover {
-	background-color: white;
+	background-color: #c0041d;
+	border-radius: 10px;
 }
