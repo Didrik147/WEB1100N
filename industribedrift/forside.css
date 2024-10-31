@@ -103,6 +103,10 @@ img {
         flex-direction: column;
         height: auto;
     }
+
+    header nav ul {
+        padding: 0;
+    }
 }
 
 

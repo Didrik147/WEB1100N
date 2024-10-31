@@ -37,24 +37,20 @@ footer {
 	font-size: 23px;
 }
 
-.boks {
+
+
+form {
   border-radius: 5px;
   background-color: #E5E5E5;
   padding: 20px;
-
 }
 
-.boks input, .boks label {
-	margin-bottom: 8px;
-}
-
-.boks input {
+form input {
 	font-size: 1rem;
-	width: 200px;
 	padding: 2px 5px;
 }
 
-.hovedboks input[type=text], select, textarea {
+form input, form textarea {
   width: 100%; 
   padding: 12px; 
   border: 1px solid #ccc; 
@@ -63,6 +59,10 @@ footer {
   margin-bottom: 16px; 
   resize: vertical;
   font-size: 1rem;
+}
+
+textarea {
+	height: 250px;
 }
 
 

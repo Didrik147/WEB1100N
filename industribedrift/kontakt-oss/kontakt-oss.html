@@ -31,38 +31,34 @@
 	<main>
 
 		<div class="center tekstutseende">
-			<h1>Vi vil høre fra deg!</h1>
+			<h2>Vi vil høre fra deg!</h2>
 			<p> Skriv inn en kort beskrivelse av ditt selskap og deres behov, og hvilke tjenester du er interessert i.
 				Deretter vil vi kontakte deg med et uforpliktende tilbud. Her kan du også kontakte oss hvis det er noe
 				du lurer på eller vil ha mer informasjon om. Vi kommer tilbake til deg innen to virkedager for en
 				hyggelig videre prat.</p>
 
 
-			<div class="boks">
 				<!-- E-post adressen her kan erstattes av Bø industribedrift sin e-post adresse -->
 				<!-- Akkurat nå vil tilbakemeldingen gå til en av studentene i gruppen -->
 				<form action="https://formsubmit.co/273930@student.usn.no" method="POST">
-					<label for="email">Epost</label>
+					<label for="email">Epost:</label>
 					<input type="email" id="email" name="email" placeholder="Epostadresse" required>
 					<br>
-					<label for="name">Navn</label>
+
+					<label for="name">Navn:</label>
 					<input type="text" id="name" name="name" placeholder="Navn" required>
+
 					<br>
-					<label for="business">Firma</label>
+					<label for="business">Firma:</label>
 					<input type="text" id="business" name="business" placeholder="Firma">
 					<br>
 
-					<div class=hovedboks>
-						<textarea name="skriv"
-							placeholder="Fortell oss om deg og ditt firma, eller send oss et spørsmål"
-							style="height: 250px; font-family: Arial, Helvetica,sans-serif;"></textarea>
-					</div>
+					<textarea name="skriv"
+							placeholder="Fortell oss om deg og ditt firma, eller send oss et spørsmål"></textarea>
 
 					<input type="hidden" name="_next" value="takk.html">
 
-			</div>
-
-			<button class="knapp mt-2" type="submit">Send</button>
+					<button class="knapp mt-2" type="submit">Send</button>
 
 			</form>
 
