@@ -91,3 +91,17 @@ img {
   height: auto;
   border-radius: 10px;
 }
+
+/* Knapp */
+.knapp {
+  background-color: #f9e70c;
+  padding: 15px 25px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 20px;
+  margin-bottom: 50px;
+  text-decoration: none;
+  text-align: center;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+	}
