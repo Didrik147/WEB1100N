@@ -1,0 +1,102 @@
+/* Definerer globale variabler som kan brukes senere */
+:root {
+    /* Fargene for rød og hul er hentet fra den tidligere kommunen Bø i Telemark sitt kommunevåpen */
+    --red: #c0041d;
+    --yellow: #f9e70c;
+    --white: #fff;
+    --black: #000;
+}
+
+* {
+    /* Setter font til å være sans-serif (gjør brødtekst lettere å lese) */
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Body */
+body {
+    margin: 0;
+}
+
+/* Tekst */
+h1, h2, h3 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+p {
+    font-size: 1.2rem;
+}
+
+/* Hoveddel */
+main {
+    width: 95%;
+    max-width: 800px;
+    margin: 0px auto;
+}
+
+/* Utility-klasse for mindre størrelse */
+.small {
+    font-size: 12px;
+}
+
+/* Utility-klasse for å sentrere tekst */
+.text-center {
+    text-align: center;
+}
+
+/* Marger på toppen */
+.mt-2 {
+    margin-top: 0.5rem;
+}
+
+/* Marger på bunn */
+.mb-5 {
+    margin-bottom: 3rem;
+}
+
+/* Kontakt oss knapp */
+.knapp {
+	background-color: var(--yellow);
+	padding: 15px 25px;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+	font-size: 20px;
+	text-decoration: none;
+	display: inline-block;
+}
+
+.knapp:hover {
+	font-weight: bold;
+	box-shadow: 0px 0px 10px var(--red);
+}
+
+/* Bunntekst */
+footer {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    background-color: var(--yellow);
+    margin-top: auto;
+}
+
+footer a {
+    color: var(--black);
+}
+
+
+footer h3 {
+    border-width: 0 0 2px 0;
+    border-style: solid;
+}
+
+@media (max-width: 650px){
+    p {
+        font-size: 1.1rem;
+    }
+}
+
+@media (max-width: 450px){
+    p {
+        font-size: 1rem;
+    }
+}
