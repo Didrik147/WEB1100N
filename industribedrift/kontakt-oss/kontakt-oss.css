@@ -26,11 +26,11 @@ footer {
 }
 
 .center {
-		display: block;
-		margin: auto;
-		max-width: 800px;
-		width: 95%;
-	}
+	display: block;
+	margin: auto;
+	max-width: 800px;
+	width: 95%;
+}
 
 
 .tekstutseende {
@@ -40,9 +40,9 @@ footer {
 
 
 form {
-  border-radius: 5px;
-  background-color: #E5E5E5;
-  padding: 20px;
+	border-radius: 5px;
+	background-color: #E5E5E5;
+	padding: 20px;
 }
 
 form input {
@@ -50,15 +50,16 @@ form input {
 	padding: 2px 5px;
 }
 
-form input, form textarea {
-  width: 100%; 
-  padding: 12px; 
-  border: 1px solid #ccc; 
-  box-sizing: border-box; 
-  margin-top: 6px; 
-  margin-bottom: 16px; 
-  resize: vertical;
-  font-size: 1rem;
+form input,
+form textarea {
+	width: 100%;
+	padding: 12px;
+	border: 1px solid #ccc;
+	box-sizing: border-box;
+	margin-top: 6px;
+	margin-bottom: 16px;
+	resize: vertical;
+	font-size: 1rem;
 }
 
 textarea {
@@ -66,33 +67,31 @@ textarea {
 }
 
 
-.navbar {
-	ul {
-		list-style-type: none;
-		margin: 0;
-		overflow: hidden;
-		background-color: var(--yellow);
-		padding: 10px;
-		font-size: 1.2rem;
-	}
+.navbar ul {
+	list-style-type: none;
+	margin: 0;
+	overflow: hidden;
+	background-color: var(--yellow);
+	padding: 10px;
+	font-size: 1.2rem;
+}
 
-	li {
-		display: inline;
-	}
+.navbar li {
+	display: inline;
+}
 
-	li a {
-		display: inline-flex;
-		justify-content: space-around;
-		flex-wrap: wrap;
-		color: #14213D;
-		text-align: center;
-		padding: 14px 16px;
-		text-decoration: none;
-	}
+.navbar li a {
+	display: inline-flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	color: #14213D;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
 
-	li a:hover {
-		background-color: var(--red);
-		color: var(--white);
-		border-radius: 10px;
-	}
+.navbar li a:hover {
+	background-color: var(--red);
+	color: var(--white);
+	border-radius: 10px;
 }

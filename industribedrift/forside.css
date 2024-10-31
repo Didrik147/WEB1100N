@@ -99,6 +99,10 @@ img {
 }
 
 @media (max-width: 850px) {
+    header nav > a {
+        font-size: 2rem;
+    }
+
     header nav {
         flex-direction: column;
         height: auto;
@@ -106,6 +110,7 @@ img {
 
     header nav ul {
         padding: 0;
+        margin-top: 10px;
     }
 }
 
@@ -113,8 +118,14 @@ img {
 
 /* Endrer CSS på mindre skjerm */
 @media (max-width: 650px){
+    header h1 {
+        margin-top: 100px;
+        hyphens: manual;
+    }
+    
     header nav ul {
         flex-direction: column;
+        margin-top: 0;
     } 
 
     header nav ul li {
@@ -132,6 +143,10 @@ img {
 }
 
 @media (max-width: 450px){
+    header nav > a {
+        font-size: 1.5rem;
+    }
+
     header h1 {
         font-size: 2rem;
     }
