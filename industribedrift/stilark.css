@@ -129,6 +129,19 @@ main section {
     margin-bottom: 70px;
 }
 
+/* Kontakt oss "knapp" */
+.knapp {
+    background-color: #f9e70c;
+    padding: 15px 25px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 20px;
+    margin-bottom: 50px;
+    text-decoration: none;
+}
+  
+
 
 /* Bilder */
 img {
